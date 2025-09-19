@@ -1,0 +1,32 @@
+format = """
+[ 󰣇 ](bg:#2E5FF2 fg:#FFFFFF)\
+[](bg:#6695F2 fg:#2E5FF2)\
+$username\
+[](bg:#DD9C46 fg:#6695F2)\
+$directory\
+[](bg:#8CBF1F fg:#DD9C46)\
+$git_branch\
+[ ](fg:#8CBF1F)\
+"""
+
+add_newline = true
+
+[username]
+style_user = "bg:#6695F2 fg:#f0f0f0"
+show_always = true
+format = "[   $user ]($style)"
+
+[hostname]
+style = "bg:#6695F2 fg:#f0f0f0"
+ssh_only = false
+format = "[ $hostname ]($style)"
+
+[directory]
+style = "bg:#DD9C46 fg:#f0f0f0"
+format = "[  $path ]($style)"
+truncation_length = 3  
+
+[git_branch]
+style = "bg:#8CBF1F fg:#f0f0f0" 
+format = "[  $branch ]($style)"
+disabled = false

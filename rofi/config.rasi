@@ -1,0 +1,69 @@
+configuration {
+	show-icons: true;
+}
+
+* {
+	font: "JetBrains Mono Bold 12"; 
+}
+
+window {
+	padding: 0px;
+	border: 2px; 
+	border-color: #3876F2;
+	border-radius: 10px;
+    	// background-color: rgba(43, 48, 59, 0.9);
+    	background-color: rgba(26, 26, 26, 0.8);
+	width: 700px;
+}
+
+mainbox {
+	padding: 20px;
+	// background-color: #2B303B;
+    	// background-color: rgba(43, 48, 59, 0.7);
+}
+
+listview {
+	scrollbar: false;
+	lines: 7;
+	border: 0;
+	margin-bottom: 20px;
+}
+
+element {
+	padding: 10px 15px;
+}
+
+element normal.normal {
+	background-color: inherit; 
+	opacity: 1;
+}
+
+element alternate.normal {
+	background-color: inherit; 
+}
+
+element selected.normal {
+	// background-color: #DD9C46;
+	background-color: #3876F2;
+	border-radius: 10px;
+}
+
+element-text {
+	text-color: #FFFFFF;
+}
+
+prompt {
+	text-color: #FFFFFF;
+	enabled: false;
+}
+
+textbox-prompt-colon {
+	enabled: false;
+}
+
+entry {
+	cursor-color: #FFFFFF;
+	text-color: #FFFFFF;
+	margin: 0px 0px 15px 0px;
+}
+
